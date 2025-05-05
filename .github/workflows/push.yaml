@@ -1,8 +1,9 @@
 name: golang-pipeline
 on: 
- push: 
-   branches: [ main ]
- pull_request: [ first ]
+  push: 
+    branches: [ main ]
+  pull_request: 
+    branches: [ first ]
 
 jobs:
   test:
